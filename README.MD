@@ -81,6 +81,17 @@ A Chrome extension that adds a 📋 copy button to each SVG icon on the [React-I
 
 ---
 
+---
+
+## Download as ZIP
+
+[Click here to download the latest version as a ZIP file](https://github.com/hassaanhaider88/react-icons-svg/archive/refs/heads/main.zip)
+
+Or, click the green **Code** button on the [Download Here](./react-icon-copy-extension.zip) and select **Download ZIP**.
+
+---
+
+
 ## Developer
 
 **Hassaan Haider**  
