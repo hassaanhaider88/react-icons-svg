@@ -1,12 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "SVG Copy By HMK CodeWeb",
+  "name": "React Icons SVG Grabber",
   "version": "1.0",
-  "description": "Adds a copy SVG button to each icon on react-icons for ease.",
+  "description": "Grab and copy SVG icons directly from the React Icons website.",
   "permissions": ["scripting", "activeTab"],
-  "host_permissions": [
-    "https://react-icons.github.io/*"
-  ],
+  "host_permissions": ["https://react-icons.github.io/*"],
   "content_scripts": [
     {
       "matches": ["https://react-icons.github.io/*"],
@@ -14,10 +12,16 @@
     }
   ],
   "action": {
-     "default_popup": "popup.html",
-    "default_title": "SVG Copy Extension",
+    "default_popup": "popup.html",
     "default_icon": {
-      "16": "./icons/HMK_CodeWeb.jpeg"
+      "16": "icons/SVGCopire.png",
+      "32": "icons/SVGCopire.png",
+      "128": "icons/SVGCopire.png"
     }
+  },
+  "icons": {
+    "16": "icons/SVGCopire.png",
+    "32": "icons/SVGCopire.png",
+    "128": "icons/SVGCopire.png"
   }
 }
